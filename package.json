@@ -9,7 +9,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "qunit test/utils.test.js",
+    "test:watch": "qunit test/utils.test.js --watch"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "qunit": "^2.10.0",
     "superagent": "^5.2.2"
   }
 }
