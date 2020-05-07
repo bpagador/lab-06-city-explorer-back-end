@@ -61,6 +61,5 @@ app. get('/trails', async(req, res) => {
 
 });
 
-
 app.listen(PORT, () => console.log(`running on port ${PORT}`));
 
